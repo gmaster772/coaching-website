@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid silver; */
+}
+.greenBg{
+    background-color: #F7FFF6;
+}
