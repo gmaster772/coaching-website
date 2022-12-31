@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* outline: 1px solid silver; */
+    outline: 1px solid silver;
 }
 
 .greenBg {
@@ -28,6 +28,7 @@
     height: 50%;
 }
 
+/* Reusable styling */
 li {
     list-style-type: none;
 }
