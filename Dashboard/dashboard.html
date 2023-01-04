@@ -18,7 +18,7 @@
 <body>
     <div class="container-fluid height">
         <!-- First division for columns -->
-        <div class="row h-100">
+        <div class="row height">
             <div class="col-2 pt-5 border-end bg-light shadow">
                 <a href="#"><img src="/img/studyHub.png" alt="" class="w-75 mb-5"></a>
                 <ul class="d-flex flex-column gap-3 w-100 text-start px-0">
@@ -53,15 +53,7 @@
                 </ul>
             </div>
             <div class="col-10">
-                <!-- <div class="pt-3 w-50">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-info flex w-25" type="submit"><i class="uil uil-search"></i> Search</button>
-                    </form>
-                </div> -->
-                <!-- <hr> -->
                 <div class="row h-100">
-
                     <div class="col-9 p-4">
                         <nav aria-label="...">
                             <ul class="pagination pagination-xl flex gap-2">
@@ -73,41 +65,65 @@
                                 <li class="page-item"><a class="page-link rounded rounded-circle" href="#">5</a></li>
                             </ul>
                         </nav>
-                        <div class="container p-5 h-25 shadow rounded rounded-4 text-end mb-5"
+
+
+                        <div class="container p-5 h-25 shadow rounded rounded-4 text-end"
                             style="background-image: url(https://images.unsplash.com/photo-1549980384-d61217e50c4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHNjaG9vbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60); background-position: center; background-size: cover;">
                             <h3 class="text-light">Dashboard</h3>
 
                         </div>
-                        <h5>Learning Goal ✔</h5>
-                        <div class="">
 
-                            <!-- Progress Bar -->
-
-                            <table class="table w-100">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Course</th>
-                                        <th scope="col">Grade</th>
-                                        <th scope="col">Handle</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Html5</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Css3</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h5 class="my-4">My Courses ✔</h5>
+                                <hr>
+                                <!-- Card1 -->
+                                <div class="col">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="https://images.unsplash.com/photo-1632882765546-1ee75f53becb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Html5</h5>
+                                            <p class="card-text">Some quick example text to build on the card title
+                                                and make up the bulk
+                                                of the
+                                                card's content.</p>
+                                            <a href="/resources/html.pdf" class="btn btn-success">Continue course</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 2 -->
+                                <div class="col">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">CSS</h5>
+                                            <p class="card-text">Some quick example text to build on the card title
+                                                and make up the bulk
+                                                of the
+                                                card's content.</p>
+                                            <a href="/resources//css.pdf" class="btn btn-success">Continue course</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card3 -->
+                                <div class="col">
+                                    <div class="card" style="width: 100%;">
+                                        <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">JavaScript</h5>
+                                            <p class="card-text">Some quick example text to build on the card title
+                                                and make up the bulk
+                                                of the
+                                                card's content.</p>
+                                            <a href="/resources/javaScript.pdf" class="btn btn-success">Continue
+                                                course</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
